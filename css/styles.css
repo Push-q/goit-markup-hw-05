@@ -380,6 +380,7 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 .footer-info {
   margin-right: 120px;
@@ -446,7 +447,7 @@ img {
 /*подписка*/
 
 .footer-subs-container {
-  margin-left: auto;
+  margin-left: 80px;
 }
 
 .text-subs {

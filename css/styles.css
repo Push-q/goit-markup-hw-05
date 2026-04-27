@@ -380,7 +380,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
 }
 .footer-info {
   margin-right: 120px;
@@ -446,8 +445,16 @@ img {
 
 /*подписка*/
 
-.footer-subs-container {
-  margin-left: 80px;
+.footer-subs-container {пше
+  display: flex;
+
+  align-items: flex-start;
+
+  justify-content: flex-start;
+
+  flex-direction: column;
+
+  margin-left: auto;
 }
 
 .text-subs {
@@ -461,7 +468,14 @@ img {
 
 .form-subs {
   display: flex;
-  gap: 24px; /* Отступ между инпутом и кнопкой по макету обычно 24px */
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-direction: row;
+
+  gap: 24px;
 }
 
 .input-email {
@@ -748,7 +762,10 @@ img {
 }
 .modal-custom-checkbox svg {
   opacity: 0;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
+  transition:
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-consent-checkbox:checked
   + .modal-consent-label

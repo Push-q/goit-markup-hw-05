@@ -714,9 +714,7 @@ img {
 .modal-submit:focus {
   background-color: #404bbf;
 }
-.modal-consent {
-  margin-bottom: 24px;
-}
+
 .modal-consent-checkbox {
   width: 16px;
   height: 16px;
